@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-8553 5330 70 70">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f33573"/>
+      <stop offset="1" stop-color="#ffc066"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_386" data-name="Group 386" transform="translate(-39)">
+    <g id="_5a1951afb1b09d000193f7d4_lock-icon-big" data-name="5a1951afb1b09d000193f7d4_lock-icon-big" transform="translate(-8514 5330)">
+      <g id="Webflow-Assets" transform="translate(-435 -2720)">
+        <g id="Feature-Icons-_Big_" data-name="Feature-Icons-(Big)" transform="translate(235 2720)">
+          <g id="lock-icon-big" transform="translate(200)">
+            <rect id="Base" class="cls-1" width="70" height="70"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <path id="Path_616" data-name="Path 616" class="cls-2" d="M12.857-15a2.065,2.065,0,0,1,1.515.628A2.065,2.065,0,0,1,15-12.857a2.065,2.065,0,0,1-.628,1.515,2.065,2.065,0,0,1-1.515.628v6.429a2.059,2.059,0,0,1-.636,1.507,2.059,2.059,0,0,1-1.507.636Q3.733-7.952-2.879-8.5A2.91,2.91,0,0,0-4.4-7.4a2.691,2.691,0,0,0-.519,1.682,2.272,2.272,0,0,0,.67,1.549,2.57,2.57,0,0,0-.385,1.1,2.27,2.27,0,0,0,.1.971,3.11,3.11,0,0,0,.561.921,7.288,7.288,0,0,0,.8.837Q-2.779,0-2.143.5a2.873,2.873,0,0,1-1.867,1.39,6.259,6.259,0,0,1-2.821.193,4.164,4.164,0,0,1-2.21-.929Q-9.157.77-9.534-.31t-.536-1.582q-.159-.5-.385-1.49a9.254,9.254,0,0,1-.251-1.691,13.532,13.532,0,0,1,.059-1.649,8.7,8.7,0,0,1,.368-1.85h-2.042a2.579,2.579,0,0,1-1.892-.787A2.579,2.579,0,0,1-15-11.25v-3.214a2.579,2.579,0,0,1,.787-1.892,2.579,2.579,0,0,1,1.892-.787h8.036q7.282,0,15-6.429a2.059,2.059,0,0,1,1.507.636,2.059,2.059,0,0,1,.636,1.507ZM10.714-4.888V-20.859Q4.118-15.8-2.143-15.117v4.52Q4.169-9.894,10.714-4.888Z" transform="translate(-8479 5376)"/>
+  </g>
+</svg>
