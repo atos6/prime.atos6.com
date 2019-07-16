@@ -64,6 +64,19 @@ https://www.facebook.com/tr?id=937932109637835&ev=PageView&noscript=1
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
+  <script>
+    function applyQueryParams(event) {
+      var that = event.currentTarget || event.target,
+          params = window.location.search.substr(1),
+          originalHref = that.getAttribute('href');
+
+      if (originalHref.indexOf('?')) {
+        that.setAttribute('href', originalHref + '&' + params);
+      } else {
+        that.setAttribute('href', originalHref + '?' + params);
+      }
+    }
+  </script>
 </head>
 <body class="body">
   <!-- Google Tag Manager (noscript) -->
@@ -97,7 +110,11 @@ https://www.facebook.com/tr?id=937932109637835&ev=PageView&noscript=1
     <div class="wrapper hero-2-cols w-container">
       <div class="hero">
         <div class="hero-intro-left"><img src="images/Group-316.png" width="90" data-ix="fade-up-1" class="app-icon">
-          <h1 data-ix="fade-up-2" class="hero-heading"><span class="heading-accent">Atos6 Prime</span>. A verdadeira inovação em aplicativo para igrejas</h1><a href="http://materiais.atos6.com/atos6-prime" data-ix="fade-up-3" class="gradient-button hero-first-button w-button">Quero conhecer!</a></div>
+          <h1 data-ix="fade-up-2" class="hero-heading"><span class="heading-accent">Atos6 Prime</span>. A verdadeira inovação em aplicativo para igrejas</h1>
+          <a href="http://materiais.atos6.com/atos6-prime" data-ix="fade-up-3" class="gradient-button hero-first-button w-button" onClick="applyQueryParams(event);">
+            Quero conhecer!
+          </a>
+        </div>
         <div data-ix="fade-up-4" class="hero-device phone"><img src="images/Group-384_1.png" srcset="images/Group-384_1-p-500.png 500w, images/Group-384_1.png 764w" sizes="(max-width: 479px) 100vw, (max-width: 991px) 247.78125px, 382px" class="hero-phone-image"></div>
       </div>
     </div>
