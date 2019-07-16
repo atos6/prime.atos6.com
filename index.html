@@ -66,15 +66,22 @@ https://www.facebook.com/tr?id=937932109637835&ev=PageView&noscript=1
 </script>
   <script>
     function applyQueryParams(event) {
+      event.preventDefault();
+
       var that = event.currentTarget || event.target,
           params = window.location.search.substr(1),
-          originalHref = that.getAttribute('href');
+          originalHref = that.getAttribute('href'),
+          url = originalHref;
 
-      if (originalHref.indexOf('?')) {
-        that.setAttribute('href', originalHref + '&' + params);
-      } else {
-        that.setAttribute('href', originalHref + '?' + params);
+      if (params !== '') {
+        if (originalHref.indexOf('?') > 0) {
+          url = originalHref + '&' + params;
+        } else {
+          url = originalHref + '?' + params;
+        }
       }
+
+      window.location = url;
     }
   </script>
 </head>
