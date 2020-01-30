@@ -1373,9 +1373,10 @@ figcaption {
   max-width: 770px;
   margin: 66px auto 10px;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  align-items: center;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -1387,10 +1388,18 @@ figcaption {
 
 .press-color-link {
   width: 33.33333333%;
-  padding: 40px 10px 33px;
   background-color: #fff;
   box-shadow: 0 0 0 1px #e7e8ea;
   text-align: center;
+  height: 123px !important;
+  max-height: 123px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.press-logo {
+  width: auto;
 }
 
 .gradient-button {
