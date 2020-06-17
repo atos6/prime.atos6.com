@@ -142,8 +142,8 @@ figcaption {
 
 .hero-section.phone {
   margin-bottom: 120px;
-  background-image: url('../images/Web-1920-–-2.svg'), -webkit-linear-gradient(315deg, #1dc1a0, #2fb9f8);
-  background-image: url('../images/Web-1920-–-2.svg'), linear-gradient(135deg, #1dc1a0, #2fb9f8);
+  background-image: url('../images/background.png'), -webkit-linear-gradient(315deg, #1dc1a0, #2fb9f8);
+  background-image: url('../images/background.png'), linear-gradient(135deg, #1dc1a0, #2fb9f8);
 }
 
 .hero-section.tablet {
@@ -496,8 +496,8 @@ figcaption {
   display: block;
   padding-top: 90px;
   padding-bottom: 110px;
-  background-image: url('../images/Web-1920-–-2.svg'), -webkit-linear-gradient(315deg, #7956ec, #2fb9f8);
-  background-image: url('../images/Web-1920-–-2.svg'), linear-gradient(135deg, #7956ec, #2fb9f8);
+  background-image: url('../images/background.png'), -webkit-linear-gradient(315deg, #7956ec, #2fb9f8);
+  background-image: url('../images/background.png'), linear-gradient(135deg, #7956ec, #2fb9f8);
   background-position: 50% 0px, 0px 0px;
   background-size: cover, auto;
   background-repeat: no-repeat, repeat;
@@ -634,8 +634,8 @@ figcaption {
 .video-tour-section.phone {
   position: relative;
   overflow: hidden;
-  background-image: -webkit-linear-gradient(315deg, rgba(29, 221, 143, .84), rgba(47, 185, 248, .85)), url('../images/5a1951afb1b09d000193f82f_video-tour-phone.jpg');
-  background-image: linear-gradient(135deg, rgba(29, 221, 143, .84), rgba(47, 185, 248, .85)), url('../images/5a1951afb1b09d000193f82f_video-tour-phone.jpg');
+  background-image: -webkit-linear-gradient(315deg, rgba(57, 0, 124, .84), rgba(47, 185, 248, .85)), url('../images/5a1951afb1b09d000193f82f_video-tour-phone.jpg');
+  background-image: linear-gradient(135deg, rgba(57, 0, 124, .84), rgba(47, 185, 248, .85)), url('../images/5a1951afb1b09d000193f82f_video-tour-phone.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-attachment: scroll, fixed;
