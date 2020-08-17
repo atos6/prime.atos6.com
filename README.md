@@ -1,4 +1,4 @@
-# prime.atos6.ccom
+# prime.atos6.com
 
 Home page do prime gerado pelo webflow
 
